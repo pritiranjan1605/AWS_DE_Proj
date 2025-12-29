@@ -31,7 +31,7 @@ Below are the problem statements and brief descriptions for each project:
 ---
 
 
-## 1. [Pizza Chain Insights](./[pizza-chain-insights](https://github.com/pritiranjan1605/AWS_DE_Proj/blob/main/Pizza_Chain_Insights.pdf))
+## 1. [Pizza Chain Insights](https://github.com/pritiranjan1605/AWS_DE_Proj/blob/main/Pizza_Chain_Insights.pdf)
 **Problem Statement:**
 The pizza chain faces challenges in understanding its sales dynamics, customer preferences, and product performance across multiple locations. The business seeks to uncover hidden trends, identify best-selling and underperforming items, and optimize operations to drive revenue growth and customer satisfaction. Key questions include: Which products are most popular? What are the peak sales periods? How do customer demographics influence purchasing behavior? What operational inefficiencies exist?
 
