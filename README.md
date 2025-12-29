@@ -41,7 +41,7 @@ This project conducts a comprehensive analysis of the pizza chain’s sales, cus
 ---
 
 
-## 2. Media Stream Analytics
+## 2. [Media Stream Analytics](https://github.com/pritiranjan1605/AWS_DE_Proj/blob/main/Media_Stream_Analytics.pdf)
 **Problem Statement:**
 The media streaming platform aims to better understand how users interact with its content and what factors drive engagement, retention, and subscription growth. The business needs to evaluate which content types and genres are most engaging, how user behavior varies across segments, and what causes users to churn or remain loyal. The challenge is to optimize content recommendations, personalize user experiences, and maximize both user satisfaction and platform revenue.
 
@@ -52,7 +52,7 @@ This project analyzes detailed user interaction logs, content metadata, and enga
 
 
 
-## 3. Customer Retention Strategy
+## 3. [Customer Retention Strategy](https://github.com/pritiranjan1605/AWS_DE_Proj/blob/main/Customer_Retention_Startegy.pdf)
 **Problem Statement:**
 Many businesses struggle with customer churn, which directly impacts revenue and growth. The challenge is to identify why customers leave, what differentiates loyal customers from those at risk, and how to proactively intervene to retain valuable clients. The goal is to leverage data-driven insights to design effective retention strategies, reduce churn rates, and foster long-term loyalty in a competitive market.
 
