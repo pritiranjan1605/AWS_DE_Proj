@@ -1,0 +1,13 @@
+source_table,target_table,column_name,data_type,primary_key,last_updated,incremental_column,description
+netezza_db.sales_data,aws_redshift.sales_data,sale_id,INTEGER,TRUE,2025-12-30T00:00:00Z,sale_date,Metadata for migrating sales data from Netezza to AWS Redshift.
+netezza_db.sales_data,aws_redshift.sales_data,sale_date,DATE,FALSE,2025-12-30T00:00:00Z,sale_date,Metadata for migrating sales data from Netezza to AWS Redshift.
+netezza_db.sales_data,aws_redshift.sales_data,amount,DECIMAL(10,2),FALSE,2025-12-30T00:00:00Z,sale_date,Metadata for migrating sales data from Netezza to AWS Redshift.
+netezza_db.sales_data,aws_redshift.sales_data,customer_id,INTEGER,FALSE,2025-12-30T00:00:00Z,sale_date,Metadata for migrating sales data from Netezza to AWS Redshift.
+netezza_db.customer,aws_redshift.customer,customer_id,INTEGER,TRUE,2025-12-30T00:00:00Z,created_at,Metadata for migrating customer data from Netezza to AWS Redshift.
+netezza_db.customer,aws_redshift.customer,customer_name,VARCHAR(100),FALSE,2025-12-30T00:00:00Z,created_at,Metadata for migrating customer data from Netezza to AWS Redshift.
+netezza_db.customer,aws_redshift.customer,email,VARCHAR(255),FALSE,2025-12-30T00:00:00Z,created_at,Metadata for migrating customer data from Netezza to AWS Redshift.
+netezza_db.customer,aws_redshift.customer,created_at,TIMESTAMP,FALSE,2025-12-30T00:00:00Z,created_at,Metadata for migrating customer data from Netezza to AWS Redshift.
+netezza_db.product,aws_redshift.product,product_id,INTEGER,TRUE,2025-12-30T00:00:00Z,updated_at,Metadata for migrating product data from Netezza to AWS Redshift.
+netezza_db.product,aws_redshift.product,product_name,VARCHAR(150),FALSE,2025-12-30T00:00:00Z,updated_at,Metadata for migrating product data from Netezza to AWS Redshift.
+netezza_db.product,aws_redshift.product,price,DECIMAL(8,2),FALSE,2025-12-30T00:00:00Z,updated_at,Metadata for migrating product data from Netezza to AWS Redshift.
+netezza_db.product,aws_redshift.product,updated_at,TIMESTAMP,FALSE,2025-12-30T00:00:00Z,updated_at,Metadata for migrating product data from Netezza to AWS Redshift.
