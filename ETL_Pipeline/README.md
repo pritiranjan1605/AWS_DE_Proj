@@ -70,30 +70,6 @@ This document describes a robust, scalable, and secure AWS-based ETL (Extract, T
 ---
 
 ## Preprocessing Scripts
-### 3. ETL Processing Example: Date/Time Conversion & Value Transformation
-```python
-import pandas as pd
-
-# Example ETL function: Convert timestamp to datetime, add new columns, and normalize values
-def etl_process(df):
-  # Convert 'timestamp' column to pandas datetime
-  df['timestamp'] = pd.to_datetime(df['timestamp'])
-  # Extract date and hour for partitioning or analytics
-  df['date'] = df['timestamp'].dt.date
-  df['hour'] = df['timestamp'].dt.hour
-  # Normalize 'value' column (e.g., min-max scaling)
-  min_val = df['value'].min()
-  max_val = df['value'].max()
-  df['value_normalized'] = (df['value'] - min_val) / (max_val - min_val)
-  # Example: Add a flag for high value
-  df['is_high_value'] = df['value'] > 15
-  return df
-
-# Usage example:
-# df = pd.read_csv('sample.csv')
-# df = etl_process(df)
-# print(df.head())
-```
 
 Below are example Python scripts for basic preprocessing and validation:
 
@@ -122,6 +98,32 @@ def validate_nulls_and_size(df, min_rows=1):
         return False
     return True
 ```
+
+### 3. ETL Processing Example: Date/Time Conversion & Value Transformation
+```python
+import pandas as pd
+
+# Example ETL function: Convert timestamp to datetime, add new columns, and normalize values
+def etl_process(df):
+  # Convert 'timestamp' column to pandas datetime
+  df['timestamp'] = pd.to_datetime(df['timestamp'])
+  # Extract date and hour for partitioning or analytics
+  df['date'] = df['timestamp'].dt.date
+  df['hour'] = df['timestamp'].dt.hour
+  # Normalize 'value' column (e.g., min-max scaling)
+  min_val = df['value'].min()
+  max_val = df['value'].max()
+  df['value_normalized'] = (df['value'] - min_val) / (max_val - min_val)
+  # Example: Add a flag for high value
+  df['is_high_value'] = df['value'] > 15
+  return df
+
+# Usage example:
+# df = pd.read_csv('sample.csv')
+# df = etl_process(df)
+# print(df.head())
+```
+
 
 ---
 
