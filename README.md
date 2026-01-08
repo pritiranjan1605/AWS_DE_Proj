@@ -60,3 +60,65 @@ Many businesses struggle with customer churn, which directly impacts revenue and
 This project undertakes a deep dive into customer behavioral, transactional, and demographic data to uncover the root causes of churn and loyalty. It applies statistical analysis and machine learning to segment customers, predict churn risk, and identify key drivers of retention. The project delivers actionable recommendations for targeted retention campaigns, personalized offers, and customer engagement initiatives. By implementing these strategies, businesses can increase customer lifetime value, reduce acquisition costs, and build a more resilient customer base.
 
 ---
+
+## 4. [Streaming Architecture](./Streaming_Architecure/README.md)
+**Description:**
+This project documents a comprehensive AWS streaming and batch data architecture designed to efficiently handle both real-time and periodic data. It covers data ingestion using Kinesis Data Streams and S3, real-time ETL processing with Lambda, batch processing with Glue and EMR, and analytics through Athena, Redshift, and QuickSight. The architecture includes practical code examples, configuration guides, and detailed explanations of each component's role in the data pipeline.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. For complete license terms and conditions, please refer to the [LICENSE](./LICENSE) file in the root directory.
+
+The MIT License permits:
+-  Commercial use
+-  Modification
+-  Distribution
+-  Private use
+
+With the conditions:
+-  License and copyright notice must be included
+-  No liability or warranty
+
+---
+
+## Release Notes
+
+For detailed release notes, version history, and feature documentation, please refer to the [RELEASE_NOTES.md](./RELEASE_NOTES.md) file.
+
+**Current Version:** 1.0.0 (January 2026)
+
+### Key Features in Current Release
+- Comprehensive AWS analytics stack implementation
+- Three detailed analytics projects with actionable insights
+- Streaming data architecture with real-time processing
+- Batch ETL pipeline documentation
+- Multi-tier data lake structure
+- Integration with analytics and BI tools
+
+---
+
+## Contributing
+
+We welcome contributions to this project! If you have improvements, bug fixes, or new projects to add, please:
+
+1. Fork the repository
+2. Create a feature branch (git checkout -b feature/YourFeature)
+3. Commit your changes (git commit -m 'Add YourFeature')
+4. Push to the branch (git push origin feature/YourFeature)
+5. Open a Pull Request
+
+---
+
+## Support
+
+For questions, issues, or suggestions, please open an issue in the repository or contact the project maintainers.
+
+For AWS-specific questions and documentation, refer to the [AWS Documentation](https://docs.aws.amazon.com/).
+
+---
+
+## Disclaimer
+
+This documentation and code samples are provided as-is for educational and reference purposes. AWS service costs, configurations, and features may vary. Always review AWS pricing, security best practices, and compliance requirements before implementing in production environments.
