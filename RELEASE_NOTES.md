@@ -73,9 +73,6 @@ For questions, issues, or suggestions, please refer to the AWS documentation or 
 - Data lineage tracking improvements
 - Automated schema evolution handling
 
-### Contributors
-- Data Engineering Team
-
 ---
 
 **Release Date:** January 8, 2026  
